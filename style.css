@@ -34,10 +34,6 @@ a:hover {
     font-size: 20px;
 }
 
-#imgB1 {
-    width: 100;
-}
-
 #W1 {
     font-size: 25px;
     color: #FFF;
@@ -61,8 +57,16 @@ strong {
     font-weight: normal;
 }
 
+ #h2{
+    font-family: "helvetica";
+    font-weight: normal;
+    color: #575757!important;
+    font-size: 25px;
+    line-height: 1.4em;
+ }
+ 
 #h2a, #h2b, #h2c {
-    font-size:25px;
+    font-size:20px;
     font-weight: bolder;
     text-transform: uppercase;
 }
@@ -83,6 +87,14 @@ strong {
 
 .a:hover, .a2:hover{
     font-size:28px;
+}
+
+.page2{
+  font-family: "helvetica";
+    font-weight: bold;
+    color: #000!important;
+    font-size:30px;
+    text-align: center;
 }
 
 .bloc {
@@ -683,13 +695,8 @@ a[data-lightbox]:hover img {
 }
 
 
-h2,
-h3,
-h4,
-h5,
-h6,
-.btn,
-{
+
+h3, h4, h5, h6, .btn{
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
@@ -752,11 +759,6 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
-}
-
-h2 {
-    font-size: 22px;
-    line-height: 1.4em;
 }
 
 h3 {
@@ -903,13 +905,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -927,10 +929,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -939,8 +938,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
@@ -1110,8 +1107,6 @@ h4 {
         margin-left: 20%;
     }
     
-    
-
 }
 
 @media (max-width: 767px) {
