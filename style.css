@@ -90,16 +90,19 @@ strong {
 
 .smart{
      font-size: 20px;
-     margin-left:440px;
+     text-align: center;
     }
     
 .smart2{
-     margin-left: 350px;
      white-space: nowrap;
      list-style: none;
      font-size: 17px;
+     text-align: center;
     }
  
+ input:focus{
+  color:red;
+ }
 
 .page2{
     font-family: "helvetica";
@@ -356,7 +359,7 @@ strong {
 .nav-invert .navbar-header, .nav-invert .navbar-brand {
     float: right;
     position: relative;
-    /*z-index: 2;*/
+    z-index: 2;
 }
 
 @media (min-width: 768px) {
@@ -552,7 +555,7 @@ a[data-lightbox]:hover::before {
 }
 
 a[data-lightbox]:hover img {
-    opacity: 0.6;
+    opacity: 1;
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
 }
@@ -589,7 +592,7 @@ a[data-lightbox]:hover img {
     position: absolute;
     top: 20px;
     right: 20px;
-    /*z-index: 20;*/
+    z-index: 20;
     background: rgba(0, 0, 0, .5);
     border: none;
     line-height: 30px;
@@ -1050,14 +1053,10 @@ html{
 #W4{
         font-size: 25px;
     }
-    
-.smart{
-        margin-left: 100px;
-    }
+   
     
 .smart2{
         list-style: none;
-        margin-left: 20%;
     }
  
   .portfolio-thumb {
@@ -1090,13 +1089,9 @@ html{
     margin-left: 150px;
 }
 
-.smart{
-        margin-left: 250px;
-    }
-    
+
 .smart2{
         list-style: none;
-        margin-left: 150px;
     }
 
 }
