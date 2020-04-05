@@ -1071,6 +1071,15 @@ html{
     }
 }
 
+@media screen and (min-width:300px) and (max-width:320px){
+ 
+   .portfolio-thumb {
+    margin-left: 0px;
+}
+
+}
+
+
 @media screen and (min-width:401px) and (max-width:450px){
  
    .portfolio-thumb {
@@ -1083,7 +1092,7 @@ html{
 
 }
 
-@media screen and (orientation:landscape) and (min-width:500px) and (max-width:736px){
+@media screen and (min-width:500px) and (max-width:767px){
  
    .portfolio-thumb {
     margin-left: 150px;
