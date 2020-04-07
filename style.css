@@ -98,10 +98,57 @@ strong {
      list-style: none;
      font-size: 17px;
      text-align: center;
+     cursor: pointer;
     }
- 
+    
+    .reseau{
+     cursor: cell;
+    }
+    
+     #Lien2, #Lien3, #Lien4 {
+     text-decoration: none;
+     font-size: 1.64em;
+    }
+    
+    #Lien1{
+     font-size: 1.7em;
+     text-decoration: none;
+    }
+    
+    #Lien1:hover {
+     color: #FFF;
+    }
+    
+     #Lien2:hover {
+     color: #FFF;
+    }
+    
+    #Lien3:hover {
+     color: #FFF;
+    }
+    
+    #Lien4:hover {
+     color: #FFF;
+    }
+    
+    #S1:hover{
+     color: #FFF;
+    }
+    
+    #S2:hover{
+     color: #FFF;
+    }
+    
+    #S3:hover{
+     color: #FFF;
+    }
+    
+    #S1, #S2, #S3{
+     margin-right: 5%;
+    }
+   
  input:focus{
-  color:red;
+  color:purple;
  }
 
 .page2{
