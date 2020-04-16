@@ -1,0 +1,6 @@
+User-Agent: *
+# Groupe 1
+User-agent: *
+#allowing all to be crawled
+Allow: /
+#Disallow: /
